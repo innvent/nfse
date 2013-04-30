@@ -14,6 +14,7 @@ module Nfse
   Envio.autoload(:Item, 'nfse/envio/item')
   Envio.autoload(:Prestador, 'nfse/envio/prestador')
   Envio.autoload(:Tomador, 'nfse/envio/tomador')
+  Envio.autoload(:NfseEnvio, 'nfse/envio/nfse_envio')
 
   # Consulta Lote
   autoload(:ConsultaLote, 'nfse/consultalote')
